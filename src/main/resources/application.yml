@@ -1,0 +1,20 @@
+server:
+  port: 8080
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1059823766649-9efc9utetqrs8dq9tb4bll782h9rnons.apps.googleusercontent.com
+            client-secret: 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
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mohirdevlesson2
+    username: postgres
+    password: 2611
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
